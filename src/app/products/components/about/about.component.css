@@ -1,0 +1,104 @@
+
+
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+
+}
+
+ul li {
+    margin-bottom: 80px; /* Add space between list items */
+    margin-left: 20px;
+    font-size: 28px;
+   
+}
+#contenu button {
+    border: none; /* Annule la bordure */
+    background-color: transparent; /* Annule la couleur de fond */
+    /* Autres styles de bouton */
+}
+#contenu .reclamation-button {
+    border: none;
+    background-color: transparent;
+    display: flex; /* Utiliser flexbox pour aligner les éléments */
+    align-items: center; /* Centrer les éléments verticalement */
+    padding-left: 10px; /* Espace à gauche de l'icône */
+    float: left;
+    margin-left: 5px;
+  
+
+}
+
+img{
+    width: 50px;
+    height: 50px;
+
+    float: left;
+  margin-left: 2px;
+  margin-right: 10px;
+
+
+}
+
+
+    body {
+       margin: 0;
+        padding: 0;
+        display: flex;
+        height: 1000;
+        width: 1310px;
+        background: linear-gradient(to bottom, #dad3c6, #72c3de, #f3e9ce); 
+    
+    }
+
+    #contenu {
+        width: 320px; /* Adjust width as needed */
+        height: 600px;
+        background: linear-gradient(to bottom, #c2e7f1 0%, #eade92 100%); 
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 70px;
+        /*background-color: #e2f2f6;*/
+        position: relative;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Grey shadow */
+
+    }
+
+    #contenu ul:last-child {
+     position: absolute;
+   top: 60%; /* Placer le bouton à mi-hauteur */
+  left: 50%; /* Placer le bouton à mi-largeur */
+  transform: translate(-50%, -50%); /* Centrer le bouton */}
+
+    #contenu h2 {
+        margin-top: 0; /* Remove top margin for better layout */
+        margin-bottom: 100px;
+    }
+
+  
+
+    
+
+    #contenu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    #menu {
+        flex: 1;
+        padding: 20px;
+    }
+
+    #menu h1 {
+        margin-top: 0;
+    }
+    button:hover {
+        /* Ajoutez ici les styles que vous souhaitez appliquer lors du survol */
+        background-color: #84cbe8; /* Par exemple, changer la couleur de fond */
+        color: #333; /* Changer la couleur du texte */
+        text-decoration: underline; /* Souligner le texte lors du survol */
+
+      }

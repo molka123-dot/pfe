@@ -1,0 +1,26 @@
+nav{
+    background: linear-gradient(to right,#ceebf2, #f1d188);
+    border-radius: 30px;
+    /*color: #FFF;*/
+}
+
+        
+.logo{
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+img{
+    width: 120px;
+    height: 85px;
+    
+   
+
+}
+
+
+h3{
+font-style: italic;
+}
+
+    
+
