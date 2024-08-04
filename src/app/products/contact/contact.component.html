@@ -82,7 +82,7 @@
                      </label>
                   </td>
                   <td>
-                     <input type="text" name="name" class="long" required style="background:transparent; border-radius: 5px;"/>
+                     <input type="text" name="name" class="long" required style="background:transparent; border-radius: 5px;text-align: left;"/>
                      <span class="error" id="errorname"></span>
                   </td>
                </tr>
@@ -93,7 +93,7 @@
                      </label>
                   </td>
                   <td>
-                     <input type="email" name="email" class="long" required style="background:transparent; border-radius: 5px;"/>
+                     <input type="email" name="email" class="long" required style="background:transparent; border-radius: 5px;text-align: left;"/>
                      <span class="error" id="erroremail"></span>
                   </td>
                </tr>
@@ -104,7 +104,7 @@
                      </label>
                   </td>
                   <td>
-                     <textarea name="message" class="long field-textarea" required style="background:transparent; border-radius: 5px;"></textarea>
+                     <textarea name="message" class="long field-textarea" required style="background:transparent; border-radius: 5px;text-align: left;"></textarea>
                      <span class="error" id="errormsg"></span>
                   </td>
                </tr>
@@ -127,8 +127,7 @@
            <ul>
                <li><button   (click)="envoyer2()"  >
                     <img src="assets/img/dash.png" alt="Icone Reclamation">
-                    
-                   Dashboard </button> </li>
+                  Visualisation </button> </li>
            
                <li>   <button    (click)="envoyer3()"  > <img src="assets/img/reclam.png" alt="Icone Reclamation"> Reclamation </button> 
                </li>
@@ -137,12 +136,12 @@
    
            </ul>
            <ul style=" align-items: center;margin-top: 200px; bottom: px;">
-               <img src="assets/img/logout.png" alt="Icone logout" style="display: flex; width: 30px; height: 20px;margin-left: 1px; margin-right: 150px;">
+               <img src="assets/img/logout.png" alt="Icone logout" style="display: flex; width: 30px; height: 20px;margin-left: 18px; margin-right: 140px;">
    
                <li>  
    
                    <button (click)="envoyer1()">
-                       <span style="margin-left: 20px; margin-right: 10px; margin-top: 900px; bottom: 2px;">Logout</span>
+                       <span style="margin-left: 25px; margin-right: 9px; margin-top: 900px; bottom: 2px;">déconnecter</span>
                      </button>
                      
                </li>

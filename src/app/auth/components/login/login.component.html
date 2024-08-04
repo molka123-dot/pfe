@@ -27,20 +27,20 @@
 
 			<div class="signup">
 				<form>
-					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" [(ngModel)]="signupObj.username">
+					<label for="chk" aria-hidden="true">S'inscrire</label>
+					<input type="text" name="txt" placeholder="Nom " [(ngModel)]="signupObj.username">
 					<input type="email" name="email" placeholder="Email" [(ngModel)]="signupObj.email">
-					<input type="password" name="pswd" placeholder="Password" [(ngModel)]="signupObj.password">
-					<button (click)="onSignUp()">Sign up</button>
+					<input type="password" name="pswd" placeholder="Mot de passe" [(ngModel)]="signupObj.password">
+					<button (click)="onSignUp()">S'inscrire</button>
 				</form>
 			</div>
 
 			<div class="login">
 				<form>
-					<label for="chk" aria-hidden="true">Login</label>
-					<input type="text" name="username" placeholder="User Name" [(ngModel)]="loginObj.username">
-					<input type="password" name="password" placeholder="Password" [(ngModel)]="loginObj.password" >
-					<button (click)="onLogin()">Login</button>
+					<label for="chk" aria-hidden="true">Se connecter</label>
+					<input type="text" name="username" placeholder="Nom" [(ngModel)]="loginObj.username">
+					<input type="password" name="password" placeholder="Mot de passe" [(ngModel)]="loginObj.password" >
+					<button (click)="onLogin()">Se connecter</button>
 				</form>
 			</div>
 	</div>

@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit {
   envoyer(){
 
     alert("message envoyé");
-    this.route.navigate(['about'])
+    this.route.navigate(['about']);
 
   }
   envoyer3(){
